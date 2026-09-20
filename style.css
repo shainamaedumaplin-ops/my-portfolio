@@ -138,3 +138,64 @@ body {
     transform: scale(1.03);
     box-shadow: 0 0 32px rgba(252, 97, 25, 0.5);
 }
+
+/* ===== About Section ===== */
+.about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 9%;
+    background-color: #282B2B;
+}
+
+.about-content {
+    max-width: 900px;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.section-title span {
+    color: #fc6119;
+}
+
+.about-bio {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #d4d4d4;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.about-details {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-block {
+    background-color: transparent;
+    padding: 2.5rem;
+    border-radius: 1.2rem;
+    flex: 1;
+    min-width: 250px;
+    border: 2px solid #fc6119;
+}
+
+.about-block h3 {
+    color: #fc6119;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.about-block p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #d4d4d4;
+}
