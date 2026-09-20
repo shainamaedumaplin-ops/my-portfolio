@@ -14,35 +14,6 @@ body {
     color: white;
 }
 
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 1%;
-    background: transparent;
-    filter: drop-shadow(0 4px 8px rgb(252, 114, 22));
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
-
-.nav a {
-    text-decoration: none;
-    color: #d7e5e9;
-    margin-left: 35px;
-    font-size: 15px;
-    font-weight: 500;
-    transition: 0.3s ease;
-}
-
-.nav a:hover,
-.nav a.active {
-    color: #fc6119;
-    border-bottom: 3px solid #fc6119;
-}
-
 .home {
     height: 100vh;
     display: flex;
@@ -129,7 +100,6 @@ body {
     flex-shrink: 0;
     border-radius: 12px;
     border: 2px solid #fc6119;
-    /* matches your accent exactly */
     box-shadow: 0 0 24px rgba(252, 97, 25, 0.35);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -145,7 +115,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5rem 9%;
+    padding: 4rem 9%;
     background-color: #282B2B;
 }
 
