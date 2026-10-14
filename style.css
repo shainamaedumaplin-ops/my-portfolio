@@ -542,7 +542,7 @@ td {
     }
 
     .projects,
-    .education,
+    .experience,
     .contact {
         padding: 4rem 1.25rem;
     }
@@ -581,17 +581,5 @@ td {
 
     .skill-card:hover {
         transform: translateY(-4px);
-    }
-}
-
-/* ===== Small phones: 480px and below ===== */
-@media (max-width: 480px) {
-
-    .home-img img {
-        width: 180px;
-    }
-
-    .nav a {
-        font-size: 12px;
     }
 }
